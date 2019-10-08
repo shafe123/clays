@@ -1,9 +1,9 @@
 # TopSkeet
 
 #Products 
-1.* Object tracking of clays and shot
-2.** Game Software UI
-3.** Automatic Clay Thrower by Voice or Foot Stomp
+1. Object tracking of clays and shot*
+2. Game Software UI**
+3. Automatic Clay Thrower by Voice or Foot Stomp**
 4. App ammo dispenser
 5. VR Beginner Areas
 

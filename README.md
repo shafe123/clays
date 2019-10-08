@@ -8,4 +8,4 @@
 5. App ammo dispenser
 
 #Resources
-[Open Object Tracking](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)
+1. [Open Object Tracking](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)

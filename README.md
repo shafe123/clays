@@ -2,22 +2,22 @@
 
 ## Products 
 1. Object tracking of clays and shot*
-  -Track Shotgun shot vs where clay was at shot
-  -Display shot in relevance to clay location at shot via game software
-  -Report to game software hit or miss
+  -Track Shotgun shot vs where clay was at shot<br />
+  -Display shot in relevance to clay location at shot via game software<br />
+  -Report to game software hit or miss<br />
 
 2. Game Software UI**
-   -Add Players
-   -Select between following games:
-      -Skeet
-      -Trap
-      -Sporting Clays
-      -5 Stand
-      -Long Shot
-      -Rabbit
-  -Scoreboard 
-  -Display Shot Tracking
-  -Interface games with clay launchers
+   -Add Players<br />
+   -Select between following games:<br />
+      -Skeet<br />
+      -Trap<br />
+      -Sporting Clays<br />
+      -5 Stand<br />
+      -Long Shot<br />
+      -Rabbit<br />
+  -Scoreboard <br />
+  -Display Shot Tracking<br />
+  -Interface games with clay launchers<br />
 
 3. Automatic Clay Thrower by Voice or Foot Stomp
 4. App ammo dispenser

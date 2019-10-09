@@ -2,10 +2,26 @@
 
 ## Products 
 1. Object tracking of clays and shot*
-1. Game Software UI**
-1. Automatic Clay Thrower by Voice or Foot Stomp**
-1. App ammo dispenser
-1. VR Beginner Areas
+  -Track Shotgun shot vs where clay was at shot
+  -Display shot in relevance to clay location at shot via game software
+  -Report to game software hit or miss
+
+2. Game Software UI**
+   -Add Players
+   -Select between following games:
+      -Skeet
+      -Trap
+      -Sporting Clays
+      -5 Stand
+      -Long Shot
+      -Rabbit
+  -Scoreboard 
+  -Display Shot Tracking
+  -Interface games with clay launchers
+
+3. Automatic Clay Thrower by Voice or Foot Stomp
+4. App ammo dispenser
+5. VR Beginner Areas
 
 ## Resources
 1. [OpenCV: Object Tracking](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)

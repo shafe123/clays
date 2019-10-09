@@ -18,7 +18,7 @@
    - Scoreboard <br />
    - Display Shot Tracking<br />
    - Interface games with clay launchers<br />
-   -Track to lifelong games played via player digital or physical card<br />
+   - Track to lifelong games played via player digital or physical card<br />
 
 3. Automatic Clay Thrower by Voice or Foot Stomp
 4. App ammo dispenser

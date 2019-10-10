@@ -22,7 +22,8 @@
 
 3. Automatic Clay Thrower by Voice or Foot Stomp
 4. App ammo dispenser
-5. VR Beginner Areas
+5. Air-powered/laser-based Beginner Area
+6. Auto Clay Filler
 
 ## Resources
 1. [OpenCV: Object Tracking](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)

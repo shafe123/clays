@@ -27,7 +27,7 @@
     <Folder Include="sample_videos\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sample_videos\y2mate_100e_trimmed.mp4" />
+    <Content Include="sample_videos\y2mate_100e_trimmed2.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

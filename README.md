@@ -30,6 +30,10 @@
 1. [Installing OpenCV](https://docs.opencv.org/4.1.1/d5/de5/tutorial_py_setup_in_windows.html)
 
 ## Development Environment
+1. Install Visual Studio 2019
+1. Install CMake
+1. Install Python 3.7
+1. [Building on Windows](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html)
 1. `pip install numpy`
 1. `pip install matplotlib`
 

@@ -5,7 +5,7 @@
     <ProjectGuid>3ad763ec-61f3-443d-a332-de063e0d6643</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>TopClay.py</StartupFile>
+    <StartupFile>TopClays.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="TopClay.py" />
+    <Compile Include="TopClays.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -1,4 +1,4 @@
-# TopSkeet
+# TopClays
 
 ## Products 
 1. Object tracking of clays and shot*<br />
@@ -9,12 +9,12 @@
 2. Game Software UI**<br />
    - Add Players<br />
    - Select between following games:<br />
-     - Skeet<br />
-     - Trap<br />
-     - Sporting Clays<br />
-     - 5 Stand<br />
-     - Long Shot<br />
-     - Rabbit<br />
+     - TopSkeet<br />
+     - TopTrap<br />
+     - TopSporting Clays<br />
+     - Top-5 Stand<br />
+     - TopLong Shot<br />
+     - TopRabbit<br />
    - Scoreboard <br />
    - Display Shot Tracking<br />
    - Interface games with clay launchers<br />

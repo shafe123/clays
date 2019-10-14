@@ -16,7 +16,7 @@ blob_params.filterByColor = True
 blob_params.minThreshold = 200
 blob_params.maxThreshold = 255
 blob_params.filterByInertia = False
-blob_detector = cv2.SimpleBlobDetector_create()
+blob_detector = cv2.SimpleBlobDetector_create(blob_params)
 
 # set up text description
 font = cv2.FONT_HERSHEY_PLAIN

@@ -1,8 +1,9 @@
 # This Python file uses the following encoding: utf-8
 import sys
-from PySide2.QtCore import Qt
+from PySide2.QtCore import Qt, QFile
 from PySide2.QtWidgets import *
 from PySide2.QtGui import QPalette, QColor
+from PySide2.QtUiTools import QUiLoader
 
 
 class TopClayGame(QMainWindow):
@@ -32,17 +33,8 @@ if __name__ == "__main__":
     app.setPalette(dark_palette)
     app.setStyleSheet("QToolTip { color: #ffffff; background-color: #2a82da; border: 1px solid white; }")
 
-    window = QWidget()
-
-    layout = QVBoxLayout()
-
-    btn_login = QPushButton('Login')
-    btn_play_without = QPushButton('Play wihtout Login')
-
-    layout.addWidget(btn_login)
-    layout.addWidget(btn_play_without)
-
-    window.setLayout(layout)
+    loader = QUiLoader()
+    window = loader.load('mainwindow.ui', None)
     window.show()
 
     sys.exit(app.exec_())

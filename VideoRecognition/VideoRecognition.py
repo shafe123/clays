@@ -7,12 +7,16 @@ FILE_LOCATION = r"sample_videos\y2mate_100e_trimmed2.mp4"
 cap = cv2.VideoCapture(FILE_LOCATION)
 fgbg = cv2.createBackgroundSubtractorMOG2(history=10, detectShadows=False)
 
+# separate out orange colors
+ORANGE_MIN = np.array([10, 50, 50], np.uint8)
+ORANGE_MAX = np.array([20, 255, 255], np.uint8)
+
 # set up blob detection
 blob_params = cv2.SimpleBlobDetector_Params()
 blob_params.filterByArea = True
-blob_params.minArea = 100000
+blob_params.minArea = 100
 blob_params.maxArea = 100000000
-blob_params.filterByColor = True
+blob_params.filterByColor = False
 blob_params.minThreshold = 200
 blob_params.maxThreshold = 255
 blob_params.filterByInertia = False
@@ -26,9 +30,18 @@ fontColor = (255,255,255)
 
 while(1):
     len_wait = 1
-    ret, frame = cap.read()
+    ret, fgmask = cap.read()
 
-    fgmask = fgbg.apply(frame)
+    #reduce frame window to limit processing
+    print(fgmask.shape)
+    fgmask = fgmask[:, 960:, :]
+
+    #convert to black/white
+    fgmask = fgbg.apply(fgmask)
+    #remove noise
+    fgmask = cv2.medianBlur(fgmask, 7)    
+    #fgmask = cv2.cvtColor(fgmask, cv2.COLOR_BGR2HSV)
+    #fgmask = cv2.inRange(fgmask, ORANGE_MIN, ORANGE_MAX)
 
     # noise_removed = copy.deepcopy(fgmask)
     # cv2.fastNlMeansDenoising(fgmask, noise_removed, h=7)
